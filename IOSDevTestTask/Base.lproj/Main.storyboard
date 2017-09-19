@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sge-AJ-DcI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="aPv-WM-NMb">
+            <objects>
+                <navigationController id="sge-AJ-DcI" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0X9-uA-ADH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kwI-Fs-Xv0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Huh-p6-YCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-626" y="124"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IOSDevTestTask" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YCa-wR-kaj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SeY-Hs-eYt">
+                                        <rect key="frame" x="137" y="100" width="100" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="Oih-fF-Tuw"/>
+                                            <constraint firstAttribute="width" constant="100" id="UF9-y6-VGi"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                        <state key="normal" title=" 1. Translator ">
+                                            <color key="titleColor" red="0.0" green="0.20000000000000001" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onTranslatorButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9WN-u0-HPf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYa-aB-CZm">
+                                        <rect key="frame" x="137" y="156" width="100" height="40"/>
+                                        <color key="backgroundColor" red="1" green="0.78743283620000004" blue="0.78699398949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="lbN-O8-dl6"/>
+                                            <constraint firstAttribute="width" constant="100" id="x58-oa-iXk"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                        <state key="normal" title="2. Images">
+                                            <color key="titleColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onImagesButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lkf-zr-Nsk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNl-KA-7Ne">
+                                        <rect key="frame" x="137" y="212" width="100" height="40"/>
+                                        <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="L9c-pc-YG8"/>
+                                            <constraint firstAttribute="width" constant="100" id="uAw-jQ-5kp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                        <state key="normal" title="3. Design">
+                                            <color key="titleColor" red="0.20000000000000001" green="0.0" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onDesignButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Su-1l-S2z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uYa-aB-CZm" firstAttribute="centerX" secondItem="YCa-wR-kaj" secondAttribute="centerX" id="O4h-5E-qgU"/>
+                                    <constraint firstItem="SeY-Hs-eYt" firstAttribute="top" secondItem="YCa-wR-kaj" secondAttribute="top" constant="100" id="dsA-64-1D9"/>
+                                    <constraint firstItem="uYa-aB-CZm" firstAttribute="top" secondItem="SeY-Hs-eYt" secondAttribute="bottom" constant="16" id="gEL-pT-oW1"/>
+                                    <constraint firstItem="fNl-KA-7Ne" firstAttribute="centerX" secondItem="YCa-wR-kaj" secondAttribute="centerX" id="lcv-87-WwN"/>
+                                    <constraint firstItem="fNl-KA-7Ne" firstAttribute="top" secondItem="uYa-aB-CZm" secondAttribute="bottom" constant="16" id="qnw-kc-2BG"/>
+                                    <constraint firstItem="SeY-Hs-eYt" firstAttribute="centerX" secondItem="YCa-wR-kaj" secondAttribute="centerX" id="ubw-fZ-9Or"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YCa-wR-kaj" secondAttribute="bottom" id="3BG-em-XdY"/>
+                            <constraint firstItem="YCa-wR-kaj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FNF-Ac-jJU"/>
+                            <constraint firstItem="YCa-wR-kaj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WXv-Aa-Oh5"/>
+                            <constraint firstAttribute="trailing" secondItem="YCa-wR-kaj" secondAttribute="trailing" id="bNl-Sj-LQP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bw3-8E-fd8"/>
+                    <connections>
+                        <outlet property="designButton" destination="fNl-KA-7Ne" id="U92-NI-YNv"/>
+                        <outlet property="imagesButton" destination="uYa-aB-CZm" id="8GD-dw-RfD"/>
+                        <outlet property="translatorButton" destination="SeY-Hs-eYt" id="Zlv-Rr-vpf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

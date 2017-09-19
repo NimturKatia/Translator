@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="gifCell" id="gTV-IL-0wX" customClass="GifCellCollectionViewCell" customModule="IOSDevTestTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eXp-5F-br1">
+                        <rect key="frame" x="0.0" y="0.0" width="163" height="132"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="eXp-5F-br1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7Dh-TT-Kv4"/>
+                <constraint firstAttribute="trailing" secondItem="eXp-5F-br1" secondAttribute="trailing" id="B0a-1d-bBP"/>
+                <constraint firstItem="eXp-5F-br1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="c15-r4-XtJ"/>
+                <constraint firstAttribute="bottom" secondItem="eXp-5F-br1" secondAttribute="bottom" id="m0n-qR-UVl"/>
+            </constraints>
+            <size key="customSize" width="163" height="132"/>
+            <connections>
+                <outlet property="gifImageView" destination="eXp-5F-br1" id="Op6-vy-Lb3"/>
+            </connections>
+            <point key="canvasLocation" x="81.5" y="93"/>
+        </collectionViewCell>
+    </objects>
+</document>

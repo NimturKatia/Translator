@@ -1,0 +1,127 @@
+%PDF-1.1
+%שתח
+1 0 obj
+<<
+/OpenAction [4 0 R
+/Fit]
+/Outlines 2 0 R
+/PageMode /UseNone
+/Pages 3 0 R
+/Type /Catalog
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Outlines
+>>
+endobj
+
+3 0 obj
+<<
+/Count 1
+/Kids [4 0 R]
+/Type /Pages
+>>
+endobj
+
+4 0 obj
+<<
+/ArtBox [0 0 100 100]
+/Contents [5 0 R]
+/Group <<
+/CS /DeviceRGB
+/S /Transparency
+/Type /Group
+>>
+/MediaBox [0 0 100 100]
+/Parent 3 0 R
+/Resources <<
+/ProcSet [/PDF
+/Text
+/ImageB
+/ImageC
+/ImageI]
+>>
+/Type /Page
+>>
+endobj
+
+5 0 obj
+<<
+/Length 750
+>>
+stream
+1 0 0 -1 0 100 cm
+0 0 100 100 re
+W n
+0.19531 0 0 0.19531 0 0 cm
+4 M
+q
+q
+0.95294 0.67843 0.18039 rg
+256 28 m
+130.1 28 28 130.10 28 256 c
+28 381.9 130.1 484.00 256 484 c
+381.9 484 484 381.90 484 256 c
+484 130.1 381.9 28.00 256 28 c
+h
+256 122 m
+292.7 122 322.5 151.80 322.5 188.5 c
+322.5 225.2 292.7 255.00 256 255 c
+219.3 255 189.5 225.20 189.5 188.5 c
+189.5 151.8 219.3 122.00 256 122 c
+h
+363.5 351.2 m
+363.5 372.5 346.1 389.90 324.8 389.9 c
+187.2 389.9 l
+165.9 389.9 148.5 372.50 148.5 351.2 c
+148.5 269.2 l
+148.5 247.9 165.9 230.50 187.2 230.5 c
+190.4 230.5 l
+203.9 252.5 228.2 267.20 255.9 267.2 c
+283.6 267.2 307.9 252.50 321.4 230.5 c
+324.6 230.5 l
+345.9 230.5 363.3 247.90 363.3 269.2 c
+363.3 351.2 l
+h
+f
+Q
+Q
+
+endstream
+endobj
+
+6 0 obj
+<<
+/Author ()
+/Keywords ()
+/Producer (pdfaid using ABCpdf)
+/Subject ()
+/Title ()
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f
+0000000017 00000 n
+0000000131 00000 n
+0000000173 00000 n
+0000000235 00000 n
+0000000472 00000 n
+0000001281 00000 n
+trailer
+<<
+/ABCpdf 10121
+/ID [<0312F398F951D63BBD42D3D7273C7BD8>
+<7463904F0BB1D07A3C6F284466CA7A4B>]
+/Info 6 0 R
+/Root 1 0 R
+/Size 7
+/Source (WeJXFxNO4fJduyUMetTcP9+oaONfINN4+d7v87LgX2wZ4VKxYW3Yfe0UG0cxzgJPB9khgm8VtCFmyd8gIrwOjQRAIjPsWhM4vgMCV\
+8KvVF/K8lf75fcdd7vGe0iYWXc1DZgsCst+wRQ3GEg=)
+>>
+startxref
+1385
+%%EOF

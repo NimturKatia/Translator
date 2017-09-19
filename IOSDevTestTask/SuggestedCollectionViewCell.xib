@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="suggestedCell" id="gTV-IL-0wX" customClass="SuggestedCollectionViewCell" customModule="IOSDevTestTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="189" height="136"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="189" height="136"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Aec-cz-o0W">
+                        <rect key="frame" x="0.0" y="0.0" width="189" height="104"/>
+                        <color key="backgroundColor" red="1" green="0.78743283620000004" blue="0.78699398949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyr-1S-Gqg">
+                        <rect key="frame" x="9" y="116" width="171" height="20"/>
+                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Aec-cz-o0W" secondAttribute="trailing" id="6hN-R1-7dq"/>
+                <constraint firstItem="Yyr-1S-Gqg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="9" id="7eV-9w-uaQ"/>
+                <constraint firstItem="Aec-cz-o0W" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ehb-ri-hiI"/>
+                <constraint firstAttribute="trailing" secondItem="Yyr-1S-Gqg" secondAttribute="trailing" constant="9" id="MDc-0f-iZX"/>
+                <constraint firstAttribute="bottom" secondItem="Yyr-1S-Gqg" secondAttribute="bottom" id="OYV-Zh-xmU"/>
+                <constraint firstItem="Yyr-1S-Gqg" firstAttribute="top" secondItem="Aec-cz-o0W" secondAttribute="bottom" constant="12" id="evk-Ao-Okx"/>
+                <constraint firstItem="Aec-cz-o0W" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="p4c-7N-CQw"/>
+            </constraints>
+            <size key="customSize" width="189" height="136"/>
+            <connections>
+                <outlet property="suggestedNewsHeaderLabel" destination="Yyr-1S-Gqg" id="ODr-qu-H5T"/>
+                <outlet property="suggestedNewsImageView" destination="Aec-cz-o0W" id="zUB-Ku-XUU"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="95"/>
+        </collectionViewCell>
+    </objects>
+</document>
